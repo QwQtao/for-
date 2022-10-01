@@ -1,7 +1,7 @@
 # for-循环变种——新学的，再复习一遍
 
 
-
+变种一：
 
 int main()
 {
@@ -51,3 +51,17 @@ int main()
 	}
 	return 0;
 }
+
+变种二：
+int main()
+{
+	int x, y;
+	for (x = 0, y = 0; x < 2 && y < 5; ++x, y++)
+	{
+		printf("hehe\n");
+	}
+
+	return 0;
+
+}
+
